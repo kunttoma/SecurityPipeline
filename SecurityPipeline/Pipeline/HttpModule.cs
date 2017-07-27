@@ -20,6 +20,7 @@ namespace SecurityPipeline.Pipeline
         void context_BeginRequest(object sender, EventArgs e)
         {
             Helper.Write("HttpModule", HttpContext.Current.User);
+
         }
 
         public void Dispose()
