@@ -3,6 +3,7 @@ using System.Web;
 
 namespace SecurityPipeline.Pipeline
 {
+    // Module is IIS thing
     public class HttpModule : IHttpModule
     {
         /// <summary>
